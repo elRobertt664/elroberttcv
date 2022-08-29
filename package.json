@@ -16,7 +16,7 @@
   },
   "scripts": {
 
-    "predeploy": "npm run build && echo ceteos.me > ./build/CNAME",
+    "predeploy": "npm run build && echo elrobertt664.studio > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
