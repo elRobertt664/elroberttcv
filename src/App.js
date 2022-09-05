@@ -16,33 +16,25 @@ function App() {
     <div className="container mx-auto px-4 mt-20">
       <div className="flex flex-wrap justify-center">
         <div className=" ">
-          <img src={me} alt="Logo" class="w-48 h-48  object-scale-down  rounded-full m-5 text-center " />
+          <img src={me} alt="Logo" className="w-48 h-48  object-scale-down  rounded-full m-5 text-center " />
         </div>
-        <div class="">
-          <div class="flex flex-col ">
-            <div class="">
-              <p class="font-sans text-5xl bg-transparent font-semibold text-gray-700 mt-3 text-center">ROBERTO FLORES ZAPIAIN
+          <div className="flex flex-col ">
+            <div className="">
+              <p className="font-sans text-5xl bg-transparent font-semibold text-gray-700 mt-3 text-center">ROBERTO FLORES ZAPIAIN
               </p> </div>
-            <div class=""><p class="text-[#c8aa8c] font-bold text-2xl text-center mt-2 bg-transparent">WEB DEVELOPER</p></div>
+            <div className=""><p className="text-[#c8aa8c] font-bold text-2xl text-center mt-2 bg-transparent">WEB DEVELOPER</p></div>
           </div>
-          <div className="flex flex-wrap flex-row text-center ">
-            <div className="basis-1/2 ">
-              <a href='#' className="text-gray-700 ml-4 mt-3 inline-flex items-baseline"><AiOutlineWhatsApp style={iconStyle} />   +52 1 311-257-7795</a>
-            </div>
-            <div className="basis-1/2 ">
-              <a href='#' className="text-gray-700 m-5 inline-flex items-baseline"><HiMail style={iconStyle} />  tic-270073@utnay.edu.mx</a>
-            </div>
-            <div className="basis-1/2 ">
-              <a href='#' className="text-gray-700 m-5 inline-flex items-baseline"><HiMail style={iconStyle} /> roberttozappiain@gmail.com</a>
-            </div>
-            <div className="basis-1/2 ">
-              <a href='https://github.com/RoberttoZappiain' className="text-gray-700 m-5 inline-flex items-baseline"><GoMarkGithub style={iconStyle} /> /RoberttoZappiain</a>
-            </div>
-          </div>
-        </div>
+
+          <div className="flex flex-wrap text-start lg:text-center mx-10 ">
+            <div className='basis-3/4 lg:basis-1/2'><a href='#' className="text-gray-700 ml-4 mt-5 inline-flex items-baseline"><AiOutlineWhatsApp style={iconStyle} />   +52 1 311-257-7795</a></div>
+            <div className='basis-4/4 lg:basis-1/2'> <a href='#' className="text-gray-700 m-5 inline-flex items-baseline"><HiMail style={iconStyle} />  tic-270073@utnay.edu.mx</a></div>
+            <div className='basis-3/4 lg:basis-1/2'>   <a href='#' className="text-gray-700 m-5 inline-flex items-baseline"><HiMail style={iconStyle} /> roberttozappiain@gmail.com</a></div>
+            <div className='basis-3/4 lg:basis-1/2'><a href='https://github.com/RoberttoZappiain' className="text-gray-700 m-5 inline-flex items-baseline"><GoMarkGithub style={iconStyle} /> /RoberttoZappiain</a></div>
+
+          </div>          
       </div>
       <div className="flex flex-wrap justify-center">
-        <div className="flex flex-col justify-center ">
+        <div className="flex flex-col justify-center">
           <div className="w-64 border-b-[#c8aa8c]   border-b-4 ">
             <h3 className="text-gray-700 semibold text-center text-3xl mb-3">
               SOBRE MI </h3>
@@ -59,7 +51,7 @@ function App() {
               <li>
                 Nacionalidad: Mexicano
               </li>
-              <li>
+              <li className='mb-5'>
                 Edad: 20 años
               </li>
             </ul>
@@ -77,7 +69,7 @@ function App() {
               </h5></div>
               <div><h5 className="text-gray-700 inline-flex items-baseline"><DiReact style={iconStyle} />REACT</h5></div>
               <div><h5 className="text-gray-700 inline-flex items-baseline"><DiLaravel style={iconStyle} />LARAVEL</h5></div>
-              <div><h5 className="text-gray-700 inline-flex items-baseline"><DiLinux style={iconStyle} />LINUX</h5></div>
+              <div className='mb-5'><h5 className="text-gray-700 inline-flex items-baseline"><DiLinux style={iconStyle} />LINUX</h5></div>
             </div>
 
 
@@ -91,13 +83,13 @@ function App() {
               <div><h5 className="text-gray-700 inline-flex items-baseline"><DiTrello style={iconStyle} />TRELLO</h5></div>
               <div><h5 className="text-gray-700 inline-flex items-baseline"><SiAdobephotoshop style={iconStyle} />ADOBE PHOTOSHOP</h5></div>
               <div><h5 className="text-gray-700 inline-flex items-baseline"><DiVisualstudio style={iconStyle} />vs code</h5></div>
-              <div><h5 className="text-gray-700 inline-flex items-baseline"><SiAdobexd style={iconStyle} />ADOBE XD</h5></div>
+              <div className='mb-5'><h5 className="text-gray-700 inline-flex items-baseline"><SiAdobexd style={iconStyle} />ADOBE XD</h5></div>
             </div>
           </div>
         </div>
 
         <div className="basis-1/2 ">
-          <h3 className="text-gray-700 font-bold text-center text-3xl mb-5">EXPERIENCIA PROFESIONAL</h3>
+          <h3 className="text-gray-700 font-bold text-center mt-5 text-3xl mb-5">EXPERIENCIA PROFESIONAL</h3>
           <div className="flex flex-wrap justify-center">
             <div className=" basis-1/4 text-center  "> <p className="text-[#c8aa8c] font-semibold" > 2019 - ACTUALIDAD <br /> HOME OFFICE </p> </div>
             <div className="basis-3/4"><h3 className="text-gray-500 font-semibold text-center text-2xl">DISEÑADOR FRONTEND</h3>
@@ -160,16 +152,14 @@ function App() {
 
           <div className="flex flex-wrap border-b-[#c8aa8c] justify-center  border-b-4">
             <div className=" basis-1/4 text-center"> <h1 className="text-[#c8aa8c] font-semibold mt-5">OBJETIVO PROFESIONAL</h1> </div>
-            <div className=" basis-3/4"><h3 className="text-gray-500 text-base m-5 text-justify ">Ser parte de la nueva generacion de desarrolladores integrando la programacion moderna, agil y enfocada a superar los retos impuestos para superarme cada dia.
+            <div className="mb-5 basis-3/4"><h3 className="text-gray-500 text-base text-bold mx-5 text-justify ">Ser parte de la nueva generacion de desarrolladores integrando la programacion moderna, agil y enfocada a superar los retos impuestos para superarme cada dia.
             </h3>
-
             </div>
-
           </div>
 
           <div className="flex flex-col justify-center mt-5 mb-10 ">
             <h3 className="text-gray-700 semibold text-center mb-3 text-3xl ">COMPETENCIAS</h3>
-            <div className="grid grid-cols-2 gap-4 ml-16 ">
+            <div className="grid grid-cols-2 gap-6 lg:ml-16 ">
               <div className="text-gray-500">
                 <ul className="list-disc">
                   <li>ORGANIZADO</li>
