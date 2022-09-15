@@ -26,7 +26,7 @@ function App() {
           </div>
 
           <div className="flex flex-wrap text-start lg:text-center mx-10 ">
-            <div className='basis-3/4 lg:basis-1/2'><a href='#' className="text-gray-700 ml-4 mt-5 inline-flex items-baseline"><AiOutlineWhatsApp style={iconStyle} />   +52 1 311-257-7795</a></div>
+            <div className='basis-3/4 lg:basis-1/2'><a href='tel:3112577795' className="text-gray-700 ml-4 mt-5 inline-flex items-baseline"><BsTelephoneFill style={iconStyle} />   +52 1 311-124-9656</a></div>
             <div className='basis-4/4 lg:basis-1/2'> <a href='#' className="text-gray-700 m-5 inline-flex items-baseline"><HiMail style={iconStyle} />  tic-270073@utnay.edu.mx</a></div>
             <div className='basis-3/4 lg:basis-1/2'>   <a href='#' className="text-gray-700 m-5 inline-flex items-baseline"><HiMail style={iconStyle} /> roberttozappiain@gmail.com</a></div>
             <div className='basis-3/4 lg:basis-1/2'><a href='https://github.com/RoberttoZappiain' className="text-gray-700 m-5 inline-flex items-baseline"><GoMarkGithub style={iconStyle} /> /RoberttoZappiain</a></div>
@@ -82,7 +82,7 @@ function App() {
               <div><h5 className="text-gray-700 inline-flex items-baseline"><SiAdobeillustrator style={iconStyle} />ADOBE ILLUSTRATOR</h5></div>
               <div><h5 className="text-gray-700 inline-flex items-baseline"><DiTrello style={iconStyle} />TRELLO</h5></div>
               <div><h5 className="text-gray-700 inline-flex items-baseline"><SiAdobephotoshop style={iconStyle} />ADOBE PHOTOSHOP</h5></div>
-              <div><h5 className="text-gray-700 inline-flex items-baseline"><DiVisualstudio style={iconStyle} />vs code</h5></div>
+              
               <div className='mb-5'><h5 className="text-gray-700 inline-flex items-baseline"><SiAdobexd style={iconStyle} />ADOBE XD</h5></div>
             </div>
           </div>
